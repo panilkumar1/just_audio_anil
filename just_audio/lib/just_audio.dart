@@ -875,6 +875,7 @@ class AudioPlayer {
                 child: _audioSource as UriAudioSource,
                 start: start,
                 end: end,
+                tag: (_audioSource as UriAudioSource).tag
               ));
     return duration;
   }
